@@ -1,6 +1,6 @@
 # npmtest-guid
 
-#### test coverage for  [guid (v0.0.12)](https://github.com/dandean/guid)  [![npm package](https://img.shields.io/npm/v/npmtest-guid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-guid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-guid.svg)](https://travis-ci.org/npmtest/node-npmtest-guid)
+#### basic test coverage for  [guid (v0.0.12)](https://github.com/dandean/guid)  [![npm package](https://img.shields.io/npm/v/npmtest-guid.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-guid) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-guid.svg)](https://travis-ci.org/npmtest/node-npmtest-guid)
 
 #### A Guid generator and validator.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-guid/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-guid/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-guid/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-guid/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-guid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-guid/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-guid/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-guid/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-guid/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-guid/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-guid/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-guid/build/coverage.html/index.html)
 
@@ -123,7 +123,8 @@
         "harness": "mocha-tdd",
         "files": "tests/*.js"
     },
-    "version": "0.0.12"
+    "version": "0.0.12",
+    "bin": {}
 }
 ```
 
